@@ -1,0 +1,27 @@
+# Build logs and temporary files
+build_logs/
+*.log
+*.tmp
+*.args
+*_verify_solid.CATPart
+verify_report.json
+
+# Win32 UI build intermediates
+src_ui/*.obj
+src_ui/*.res
+src_ui/*.pdb
+src_ui/*.ilk
+
+# CAA / mkmk generated build artifacts
+src_ws/ToolsData/
+src_ws/win_b64/
+src_ws/Install_config*
+src_ws/**/Objects/
+src_ws/**/LocalGenerated/
+src_ws/**/ImportedInterfaces/
+src_ws/**/various/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib

@@ -1,0 +1,2 @@
+#define IDI_APPICON 200
+IDI_APPICON ICON "app.ico"
